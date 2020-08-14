@@ -134,7 +134,13 @@ h2 {
 .btn-text {
     color: #f73427;
     font-size: 30px;
+    width: 260px;
     border-radius: 45px 0 0 45px;
+}
+
+.btn-text[value] {
+    color: #f73427;
+    text-align: center;
 }
 
 .btn-text:hover {
@@ -150,12 +156,13 @@ h2 {
     border: none;
 
     outline: none;
-    padding: 10px 25px;
+    padding: 10px 0;
     text-transform: uppercase;
     transition: color 0.3s;
 }
 
 .btn-copy {
+    width: 200px;
     color: white;
     font-size: 15px;
     border-radius: 0 45px 45px 0;
@@ -273,6 +280,10 @@ h2 {
         justify-content: center;
     }
 
+    .container__content {
+        margin-right: 0;
+    }
+
     .button-wrapper {
         border: 1px solid #f73427;
         background: black;
@@ -315,5 +326,4 @@ h2 {
     .btn-text {
         font-size: 25px;
     }
-
 }
